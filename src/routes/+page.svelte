@@ -1,2 +1,31 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+import Board from "$lib/components/board.svelte";
+import I from "$lib/components/i.svelte";
+
+</script>
+
+<div class="game-container">
+    <Board />
+</div>
+
+<style lang="scss">
+:global(html) {
+    background-color: teal;
+}
+
+:global(body) {
+    display: flex;
+    justify-content: center;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 400px;
+    margin-top: 40px;
+    padding: 1.25rem;
+    background-color: white;
+}
+</style>
