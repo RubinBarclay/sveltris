@@ -1,12 +1,12 @@
 <script lang="ts">
 import Board from "$lib/components/board.svelte";
-import I from "$lib/components/i.svelte";
+import J from "$lib/components/j.svelte";
 
 </script>
 
 <div class="game-container">
     <Board />
-    <I />
+    <J />
 </div>
 
 <style lang="scss">
