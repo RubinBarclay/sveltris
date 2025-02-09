@@ -6,6 +6,7 @@ import I from "$lib/components/i.svelte";
 
 <div class="game-container">
     <Board />
+    <I />
 </div>
 
 <style lang="scss">
